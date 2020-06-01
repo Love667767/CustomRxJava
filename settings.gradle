@@ -1,0 +1,3 @@
+rootProject.name='CustomRxJavaDemo'
+include ':app'
+include ':customrxjavalib'

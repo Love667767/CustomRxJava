@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/normalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="基本使用" />
+
+    <TextView
+        android:id="@+id/mapTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Map 操作符的使用" />
+
+    <TextView
+        android:id="@+id/flatmapTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Flatmap 操作符使用" />
+
+    <TextView
+        android:id="@+id/subscribeOnTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="SubscribeOn 操作符使用" />
+
+    <TextView
+        android:id="@+id/observeOnTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="observeOn 操作符使用" />
+
+</LinearLayout>
