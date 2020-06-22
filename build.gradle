@@ -1,15 +1,15 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    
+
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
-        
+
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -20,7 +20,12 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        // 本地 Maven
+//        maven { url 'file:/XXX/CustomRxJavaDemo/repository-snapshot' }
+
+        // Maven 私服
+        // public 分组里面包含了多个仓库，其中就包含了snapshots仓库。
+        maven { url 'http://127.0.0.1:8081/nexus/content/groups/public/' }
     }
 }
 
